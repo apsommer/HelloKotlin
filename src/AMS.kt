@@ -1,15 +1,19 @@
+import kotlin.random.Random
+
 fun main(args: Array<String>) {
 
-    val spices = listOf("curry", "pepper", "cayenne", "ginger", "red curry", "green curry", "red pepper" )
-    val eagerList = spices.filter {it.contains("curry")}.sorted()
+    // lambda
+    val rollDice = {sides : Int -> if (sides == 0) 0 else Random.nextInt(1, sides + 1)} // (from, until]
+    println(rollDice(12))
 
-    println(eagerList)
+    // lambda function type notation
+    val rollDice1 : (Int) -> Int = {sides -> if (sides == 0) 0 else Random.nextInt(1, sides + 1)}
+    println(rollDice1(6))
 
-    val apples = spices.filter {it.startsWith('c') && it.endsWith('e')}
-    println(apples)
-
-    val bananas = spices.take(3).filter { it.startsWith('c') }
-    println(bananas)
+    // function type notation is more readable, which reduces errors, clearly showing the what type is passed in and what type is returned.
+    gamePlay(rollDice1(6))
 }
 
-
+fun gamePlay(rollEm : Int) {
+    print(rollEm)
+}
