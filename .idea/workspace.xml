@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="340a4c87-49f5-4b77-b641-5c0df993dd57" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="340a4c87-49f5-4b77-b641-5c0df993dd57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/AMSKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Kotlin/AMSKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AMS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AMS.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,15 +16,6 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AMS.kt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -29,37 +23,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-6" />
-    <option name="width" value="972" />
-    <option name="height" value="1166" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZBbIV53Tkd9Dt7CBIROdjr6zIP" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello Kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -67,33 +34,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
     <configuration name="AMSKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Hello Kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="AMSKt" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,57 +74,38 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" visible="true" weight="0.32982087" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Resources Explorer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Captures" order="0" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Run" weight="0.32981783" />
-      <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Palette&#9;" />
-    </layout>
-  </component>
   <component name="WindowStateProjectService">
     <state x="72" y="242" key="#Project_Structure" timestamp="1584323708266">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="72" y="242" key="#Project_Structure/0.0.1920.1160@0.0.1920.1160" timestamp="1584323708266" />
-    <state width="914" height="266" key="GridCell.Tab.0.bottom" timestamp="1584327513509">
+    <state x="0" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584387685702">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="914" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1584327513509" />
-    <state width="914" height="266" key="GridCell.Tab.0.center" timestamp="1584327513509">
+    <state x="0" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1584387685702" />
+    <state width="914" height="262" key="GridCell.Tab.0.bottom" timestamp="1584416882153">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="914" height="266" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1584327513509" />
-    <state width="914" height="266" key="GridCell.Tab.0.left" timestamp="1584327513509">
+    <state width="914" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1584416882153" />
+    <state width="914" height="262" key="GridCell.Tab.0.center" timestamp="1584416882153">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="914" height="266" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1584327513509" />
-    <state width="914" height="266" key="GridCell.Tab.0.right" timestamp="1584327513509">
+    <state width="914" height="262" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1584416882153" />
+    <state width="914" height="262" key="GridCell.Tab.0.left" timestamp="1584416882153">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="914" height="266" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1584327513509" />
+    <state width="914" height="262" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1584416882153" />
+    <state width="914" height="262" key="GridCell.Tab.0.right" timestamp="1584416882153">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="914" height="262" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1584416882153" />
+    <state x="0" y="222" key="SettingsEditor" timestamp="1584386823088">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="0" y="222" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1584386823088" />
     <state x="661" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1584315360994">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="661" y="404" key="com.intellij.ide.util.TipDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1584315360994" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AMS.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
   </component>
 </project>
