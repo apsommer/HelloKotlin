@@ -1,6 +1,6 @@
 package books
 
-class Book (val title : String, val author : String, val year : Int) {
+class Book (val title : String, val author : String, val year : Int, var pages : Int) {
 
     companion object {
         const val max = 100
@@ -18,7 +18,23 @@ class Book (val title : String, val author : String, val year : Int) {
 
 }
 
+fun Book.weight() : Double {
+    return pages*1.5
+}
+
+fun Book.tornPages(tornPages : Int) {
+    this.pages -= tornPages
+}
+
 object Constants {
 
     const val BASE_URL = "http://www.sommerengineering.com/"
+}
+
+class Puppy {
+
+    fun playWithBook(book : Book) {
+        book.pages -= (Math.random() * book.pages).toInt()
+    }
+
 }

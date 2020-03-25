@@ -2,7 +2,7 @@ package books
 
 fun main(args : Array<String>) {
 
-    val book = Book("apples", "bananas", 1983)
+    val book = Book("apples", "bananas", 1983, 432)
 
     var allBooks = setOf("Mistborn", "Hero of Ages", "Well of Ascension")
     var library = mapOf("Sanderson" to allBooks)
@@ -17,4 +17,14 @@ fun main(args : Array<String>) {
     println("moreBooks: $moreBooks")
 
     book.printUrl()
+
+    val puppy = Puppy()
+
+    println("Giving puppy a book to chew up ...")
+    while (book.pages > 10) {
+
+        puppy.playWithBook(book)
+        println("Pages left: " + book.pages)
+    }
+
 }
