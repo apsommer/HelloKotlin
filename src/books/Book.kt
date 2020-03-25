@@ -1,30 +1,24 @@
 package books
 
-open class Book (title : String, author : String) {
+class Book (val title : String, val author : String, val year : Int) {
 
-    private var currentPage = 0
-
-    open fun readPage() {
-        currentPage ++
+    companion object {
+        const val max = 100
     }
+
+    fun canBorrow(n : Int) : Boolean {
+        return (n <= 100)
+    }
+
+    fun printUrl() {
+        val constants = Constants
+        val url = constants.BASE_URL + title + ".html"
+        println(url)
+    }
+
 }
 
-class eBook (title : String, author : String, format : String = "text") : Book(title, author) {
+object Constants {
 
-    private var wordCount = 0
-
-    override fun readPage() {
-        wordCount += 250
-    }
-}
-
-class BookInfo (val title : String, val author : String, val year : Int) {
-
-    fun basicInfo () : Pair<String, String> {
-        return title to author
-    }
-
-    fun allInfo () : Triple<String, String, Int> {
-        return Triple(author, title, year)
-    }
+    const val BASE_URL = "http://www.sommerengineering.com/"
 }
