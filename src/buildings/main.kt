@@ -2,5 +2,7 @@ package buildings
 
 fun main (args : Array<String>) {
 
-    Building(Wood()).build()
+    val building = Building(Wood())
+    building.build()
+    isSmallBuilding(building)
 }
