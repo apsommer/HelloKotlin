@@ -1,12 +1,13 @@
 package spices
 
+import books.BookInfo
+
 fun main(args : Array<String>) {
 
-    val curry: Curry = Curry("curry", "hot")
-    print(curry.color)
-
+    val book = BookInfo("apples", "bananas", 1983)
     println()
-
-    val container = SimpleContainer(curry)
-    print(container.label)
+    println("Basic info: " + book.basicInfo())
+    println("All info: " + book.allInfo())
+    val title = book.title
+    println("Just the title: $title")
 }
