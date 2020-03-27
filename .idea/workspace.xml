@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="340a4c87-49f5-4b77-b641-5c0df993dd57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/directions/Directions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/buildings/Building.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/buildings/Building.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/buildings/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/buildings/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +55,8 @@
       <recent name="C:\IdeaProjects\Hello Kotlin\src\Spices" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt (2)">
-    <configuration name="AMSKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.DirectionsKt">
+    <configuration name="AMSKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Hello Kotlin" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="11" />
@@ -70,7 +69,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt (1)" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="DirectionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Hello Kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="directions.DirectionsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Hello Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -83,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt (2)" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Hello Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -96,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Hello Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -111,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.DirectionsKt" />
         <item itemvalue="Kotlin.MainKt (2)" />
         <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
@@ -140,30 +153,34 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="0" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1584387685702" />
-    <state width="1493" height="216" key="GridCell.Tab.0.bottom" timestamp="1585170811210">
+    <state x="450" y="149" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585170909906">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="450" y="149" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/3840.2.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1585170909906" />
+    <state width="1493" height="216" key="GridCell.Tab.0.bottom" timestamp="1585275184273">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="164" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584728681749" />
     <state width="1619" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1584480410175" />
-    <state width="1493" height="216" key="GridCell.Tab.0.bottom/3840.2.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1585170811210" />
-    <state width="1493" height="216" key="GridCell.Tab.0.center" timestamp="1585170811210">
+    <state width="1493" height="216" key="GridCell.Tab.0.bottom/3840.2.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1585275184273" />
+    <state width="1493" height="216" key="GridCell.Tab.0.center" timestamp="1585275184272">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="164" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584728681749" />
     <state width="1619" height="262" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1584480410175" />
-    <state width="1493" height="216" key="GridCell.Tab.0.center/3840.2.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1585170811210" />
-    <state width="1493" height="216" key="GridCell.Tab.0.left" timestamp="1585170811210">
+    <state width="1493" height="216" key="GridCell.Tab.0.center/3840.2.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1585275184272" />
+    <state width="1493" height="216" key="GridCell.Tab.0.left" timestamp="1585275184272">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="164" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584728681749" />
     <state width="1619" height="262" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1584480410175" />
-    <state width="1493" height="216" key="GridCell.Tab.0.left/3840.2.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1585170811210" />
-    <state width="1493" height="216" key="GridCell.Tab.0.right" timestamp="1585170811210">
+    <state width="1493" height="216" key="GridCell.Tab.0.left/3840.2.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1585275184272" />
+    <state width="1493" height="216" key="GridCell.Tab.0.right" timestamp="1585275184272">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="164" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584728681749" />
     <state width="1619" height="262" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1584480410175" />
-    <state width="1493" height="216" key="GridCell.Tab.0.right/3840.2.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1585170811210" />
+    <state width="1493" height="216" key="GridCell.Tab.0.right/3840.2.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1585275184272" />
     <state x="157" y="40" key="SettingsEditor" timestamp="1585167197380">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
