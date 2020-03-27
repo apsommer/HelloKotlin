@@ -23,6 +23,8 @@ class Game() {
 }
 
 fun main (args : Array<String>) {
+
+    // simple lambdas
     val game = Game()
     println(game.path)
     game.north()
@@ -31,4 +33,30 @@ fun main (args : Array<String>) {
     game.west()
     game.end()
     println(game.path)
+
+    // higher order functions (extension functions)
+    val numbers = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 0)
+    val filteredNumbers = numbers.higherOrder {
+        (it % 3) // pass this function as an input argument
+    }
+    println(filteredNumbers)
+}
+
+// extension function
+fun List<Int>.higherOrder(block : (Int) -> Int) : List<Int> {
+
+    val result = mutableListOf<Int>()
+    var intOperatedOn = 0
+
+    for (item in this) {
+
+        // execute the function defined at the call site
+        intOperatedOn = block(item)
+
+        if (intOperatedOn == 0) {
+            result.add(item)
+        }
+    }
+
+    return result
 }
